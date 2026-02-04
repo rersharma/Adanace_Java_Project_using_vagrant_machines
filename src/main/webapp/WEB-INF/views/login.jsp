@@ -100,7 +100,7 @@
                 </c:if>
 
                 <div class="wrap-input100 validate-input m-b-23" data-validate="Username is required">
-                    <span class="label-input100">Username</span>
+                    <span class="label-input100">sUsername</span>
                     <input class="input100" type="text" name="username" placeholder="Type your username" required autofocus>
                     <span class="focus-input100" data-symbol="&#xf206;"></span>
                 </div>
