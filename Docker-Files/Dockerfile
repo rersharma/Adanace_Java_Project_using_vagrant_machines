@@ -1,4 +1,4 @@
-FROM  maven:maven:3.9.9-eclipse-temurin-21-jammy AS BUILD_IMAGE
+FROM  maven:3.9.9-eclipse-temurin-21-jammy AS BUILD_IMAGE
 RUN git clone https://github.com/rersharma/Adanace_Java_Project_using_vagrant_machines.git
 RUN cd Adanace_Java_Project_using_vagrant_machines && git checkout docker && mvn install 
 
