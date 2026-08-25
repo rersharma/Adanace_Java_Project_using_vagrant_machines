@@ -6,7 +6,8 @@ FROM tomcat:10-jdk21
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 
-COPY --from=BUILD_IMAGE Adanace_Java_Project_using_vagrant_machines/vprofile-v2.war /usr/local/tomcat/webapps/ROOT.war
+COPY --from=BUILD_IMAGE Adanace_Java_Project_using_vagrant_machines/target/vprofile-v2.war /usr/local/tomcat/webapps/ROOT.war
+
 
 EXPOSE 8080
 
